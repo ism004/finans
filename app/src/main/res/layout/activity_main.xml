@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#EAF1F7"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="408dp"
+            android:layout_height="97dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="616dp">
+
+            <LinearLayout
+                android:layout_width="406dp"
+                android:layout_height="95dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="69dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EBEFF7"
+                    android:drawableBottom="@drawable/wallet"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="71dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EEF0FB"
+                    android:drawableBottom="@drawable/runok"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EEF0FB"
+                    android:drawableBottom="@drawable/browser"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="71dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EEF0FB"
+                    android:drawableBottom="@drawable/obmen"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EEF0FB"
+                    android:drawableBottom="@drawable/settings"
+                    android:text="" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="398dp"
+            android:layout_height="195dp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Обший баланс"
+                android:textColor="#626770"
+                tools:layout_editor_absoluteX="174dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="145 745,67$"
+                android:textColor="#646F87"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 1768,25$ (12,1%) за день"
+                android:textColor="#8CCAE7"
+                tools:layout_editor_absoluteX="137dp"
+                tools:layout_editor_absoluteY="88dp" />
+
+            <LinearLayout
+                android:layout_width="317dp"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="149dp">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#DFE3EF"
+                    android:text="Активы"
+                    android:textColor="#77BBE3"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E0E9F0"
+                    android:text="NFT коллекции"
+                    android:textColor="#929CA8" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/logo"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/plus"
+                tools:layout_editor_absoluteX="338dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/resource_switch"
+                tools:layout_editor_absoluteX="185dp"
+                tools:layout_editor_absoluteY="114dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="407dp"
+            android:layout_height="409dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="206dp">
+
+            <LinearLayout
+                android:layout_width="405dp"
+                android:layout_height="406dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/bit"
+                        tools:layout_editor_absoluteX="4dp"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,014 BTC"
+                        android:textColor="#787F8C"
+                        tools:layout_editor_absoluteX="320dp"
+                        tools:layout_editor_absoluteY="8dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50,66$"
+                        android:textColor="#7FCBF3"
+                        tools:layout_editor_absoluteX="341dp"
+                        tools:layout_editor_absoluteY="28dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,052739 ETH"
+                        android:textColor="#787F8C"
+                        tools:layout_editor_absoluteX="295dp"
+                        tools:layout_editor_absoluteY="9dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="117,11 $"
+                        android:textColor="#7FCBF3"
+                        tools:layout_editor_absoluteX="330dp"
+                        tools:layout_editor_absoluteY="28dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="240dp"
+                        android:layout_height="71dp"
+                        app:srcCompat="@drawable/eth"
+                        tools:layout_editor_absoluteX="-3dp"
+                        tools:layout_editor_absoluteY="3dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="124.93463 BNB"
+                        android:textColor="#787F8C"
+                        tools:layout_editor_absoluteX="285dp"
+                        tools:layout_editor_absoluteY="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="38 332,44 $"
+                        android:textColor="#7FCBF3"
+                        tools:layout_editor_absoluteX="310dp"
+                        tools:layout_editor_absoluteY="28dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/smartch"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="5dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 382,323 CAKE"
+                        android:textColor="#787F8C"
+                        tools:layout_editor_absoluteX="285dp"
+                        tools:layout_editor_absoluteY="5dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="63 412,21 $"
+                        android:textColor="#7FCBF3"
+                        tools:layout_editor_absoluteX="312dp"
+                        tools:layout_editor_absoluteY="28dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/pank"
+                        tools:layout_editor_absoluteX="3dp"
+                        tools:layout_editor_absoluteY="5dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8 253,32 BUSD"
+                        android:textColor="#787F8C"
+                        tools:layout_editor_absoluteX="291dp"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8 253Б32 $"
+                        android:textColor="#7FCBF3"
+                        tools:layout_editor_absoluteX="312dp"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/usd"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
